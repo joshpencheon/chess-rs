@@ -1,3 +1,9 @@
+mod piece;
+mod position;
+
+use position::Position;
+
 fn main() {
-    println!("Hello, world!");
+    let position = Position::default();
+    println!("{:?}", position);
 }
